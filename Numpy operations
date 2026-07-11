@@ -1,0 +1,51 @@
+>>> import numpy as np
+#Programe 1
+>>> a = np.array([1,2,3])
+>>> b = np.array([4,5,6])
+>>> result = a + b
+>>> print(result)
+[5 7 9]
+#Programe 2
+>>> result = a - b
+>>> print(result)
+[-3 -3 -3]
+#Programe 3
+>>> result = a * b
+>>> print(result)
+[ 4 10 18]
+#Programe 4
+>>> a = np.array([10,20,30,40,50])
+>>> print(np.mean(a))
+30.0
+#Programe 5
+>>> print(np.median(a))
+30.0
+#Programe 6
+>>> print(np.std(a))
+14.142135623730951
+#Programe 7
+>>> print("Maximum: ",np.max(a))
+Maximum:  50
+#Programe 8
+>>> print("Minimum: ", np.min(a))
+Minimum:  10
+#PPrograme 9
+>>> matrix = np.array([
+... [1,2,3],
+... [4,5,6],
+... [7,8,9]
+... ])
+>>> print(matrix)
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+#Programe 10
+>>> matrix = np.random.rand(3, 3)
+>>> print(matrix)
+[[0.04820617 0.73975793 0.77047607]
+ [0.46220408 0.58188185 0.00298107]
+ [0.23095283 0.4225732  0.88322911]]
+#Programe 11
+>>> a = np.array([10,20,30,40,50])
+>>> print(np.sum(a))
+150
