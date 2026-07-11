@@ -1,0 +1,49 @@
+#Programe 1
+>>> a = np.array([1,2,3,4,5])
+>>> print(a)
+[1 2 3 4 5]
+#Programe 2
+>>> b = np.array([[1,2],
+...              [3,4]])
+>>> print(b)
+[[1 2]
+ [3 4]]
+#Progrmae 3
+>>> print(b.shape)
+(2, 2)
+>>> print(b.ndim)
+2
+>>> print(b.size)
+4
+#Programe 4
+>>> c= np.zeros((3,3))
+>>> print(c)
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+#Programe 5
+>>> d = np.ones((4,4))
+>>> print(d)
+[[1. 1. 1. 1.]
+ [1. 1. 1. 1.]
+ [1. 1. 1. 1.]
+ [1. 1. 1. 1.]]
+#Programe 6
+>>> e = np.arange(1,10)
+>>> print(e)
+[1 2 3 4 5 6 7 8 9]
+#Programe 7
+>>> f = np.linspace(0,100,10)
+>>> print(f)
+[  0.          11.11111111  22.22222222  33.33333333  44.44444444
+  55.55555556  66.66666667  77.77777778  88.88888889 100.        ]
+#Programe 8
+>>> g = np.random.rand(5)
+>>> print(g)
+[0.51334378 0.04933054 0.21627699 0.70191145 0.82007541]
+#Programe 9
+>>> print(np.max(a))
+5
+#Programe 10
+>>> print(np.min(a))
+1
