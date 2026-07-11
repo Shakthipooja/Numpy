@@ -1,0 +1,77 @@
+import numpy as np
+#Programe 1
+>>> a = np.array ([10,20,30,40,50])
+>>> print("First element: ",a[0])
+First element:  10
+>>> print("Second element: ",a[-1])
+Second element:  50
+#Programe 2
+>>> a = np.array([10,20,30,40,50])
+>>> print(a[::2])
+[10 30 50]
+#Programe 3
+>>> print(a[1:4])
+[20 30 40]
+#Programe 4
+>>> matrix = np.array([
+... [1,2,3],
+... [4,5,6],
+... [7,8,9]
+... ])
+>>> print(matrix)
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+#Programe 5
+>>> matrix = np.array([
+... [1,2,3],
+... [4,5,6],
+... [7,8,9]
+... ])
+>>> print(matrix[1])
+[4 5 6]
+#Programe 6
+>>> matrix = np.array([
+... [1,2,3],
+... [4,5,6],
+... [7,8,9]
+... ])
+>>> print(matrix[:,0])
+[1 4 7]
+#Programe 7
+>>> a = np.arange(1,10)
+>>> matrix = a.reshape(3,3)
+>>> print(matrix)
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+#Programe 8
+>>> matrix = np.array([
+... [1,2,3],
+... [4,5,6]
+... ])
+>>> print(matrix.T)
+[[1 4]
+ [2 5]
+ [3 6]]
+#Programe 9
+>>> a = np.array([
+... [1,2],
+... [3,4]
+... ])
+>>> b = np.array([
+... [5,6],
+... [7,8]
+... ])
+>>> result = np.matmul(a,b)
+>>> print(result)
+[[19 22]
+ [43 50]]
+#Programe 10
+>>> ecg = np.array([72, 75, 74, 78, 80, 77, 76])
+>>> print("Ecg values: ",ecg)
+Ecg values:  [72 75 74 78 80 77 76]
+>>> print("Mean: ", np.mean(ecg))
+Mean:  76.0
+>>> print("Standard Deviation: ",np.std(ecg))
+Standard Deviation:  2.449489742783178
