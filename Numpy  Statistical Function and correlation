@@ -1,0 +1,69 @@
+>>> import numpy as np
+#Programe 1
+>>> data = np.array([10,20,30,40,50])
+>>> print("Mean = ",np.mean(data))
+Mean =  30.0
+#Programe 2
+>>> print("Median = ",np.median(data))
+Median =  30.0
+#Programe 3
+>>> print("Variance = ",np.var(data))
+Variance =  200.0
+#Programe 4
+>>> print("Standard deviation = ",np.std(data))
+Standard deviation =  14.142135623730951
+#Programe 5
+>>> print("Maximum = ",np.max(data))
+Maximum =  50
+#Progrmae 6
+>>> print("Minimum = ",np.min(data))
+Minimum =  10
+#Programe 7
+>>> print("Sum = ",np.sum(data))
+Sum =  150
+#Programe 8
+>>> print("Average = ",np.average(data))
+Average =  30.0
+#Programe 9
+>>> x = np.array([1,2,3,4,5])
+>>> y = np.array([2,4,6,8,10])
+>>> correlation = np.corrcoef(x,y)
+>>> print(correlation)
+[[1. 1.]
+ [1. 1.]]
+#Programe 10
+>>> ecg = np.array([72,75,74,78,80,77,76])
+>>> print("Ecg values: ",ecg)
+>>> print("Mean: ",np.mean(ecg))
+>>> print("Median: ",np.median(ecg))
+>>> print("Variance: ",np.var(ecg))
+>>> print("Standard deviation: ",np.std(ecg))
+>>> print("Maximum: ",np.max(ecg))
+>>> print("Minimum: ",np.min(ecg))
+Ecg values:  [72 75 74 78 80 77 76]
+Mean:  76.0
+Median:  76.0
+Variance:  6.0
+Standard deviation:  2.449489742783178
+Maximum:  80
+Minimum:  72
+#Programe 11
+>>> temp = np.array([98.4,99.1,98.7,100.2,99.5,98.9])
+>>> print("Temperature values: ",temp)
+>>> print("Mean : ",np.mean(temp))
+>>> print("Median : ",np.median(temp))
+>>> print("Variance : ",np.var(temp))
+>>> print("Standard deviation : ",np.std(temp))
+>>> print("Maximum : ",np.max(temp))
+>>> print("Minimum : ",np.min(temp))
+>>> print("Sum : ",np.sum(temp))
+>>> print("Average : ",np.average(temp))
+Temperature values:  [ 98.4  99.1  98.7 100.2  99.5  98.9]
+Mean :  99.13333333333333
+Median :  99.0
+Variance :  0.34222222222222104
+Standard deviation :  0.5849976258261405
+Maximum :  100.2
+Minimum :  98.4
+Sum :  594.8
+Average :  99.13333333333333
